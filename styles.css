@@ -64,3 +64,10 @@ section {
     min-width: 300px;
     margin: 10px;
 }
+a {
+    color: #1976d2;
+    text-decoration: none;
+}
+a: :hover {
+    text-decoration: underline;
+}
