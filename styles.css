@@ -1,4 +1,5 @@
 body {
+	background-color: #ADD8E6;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ header {
     padding-top: 6px;
     text-align: left;
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 header h1 {
@@ -36,17 +37,16 @@ nav a:hover {
     color: black;
 }
 main {
-    padding: 20px;
+	background-color: white;
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
 }
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -54,7 +54,6 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
 }
 ul, ol {
     line-height: 1.6;
