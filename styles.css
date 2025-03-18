@@ -9,12 +9,13 @@ body {
 }
 header {
     background-color: #1976d2; 
+    background-image: url('background.jpg'); /* Masukkan path gambar Anda */	
+	background-size: cover; /* Agar gambar menyesuaikan ukuran header */
     color: white;
-    padding-top: 6px;
     text-align: left;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
 header h1 {
     margin: 0;
@@ -38,22 +39,21 @@ nav a:hover {
 }
 main {
 	background-color: white;
-    padding: 0;
+	margin: 0;
+    padding: 0 20px 0 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 760px;
 }
 footer {
     text-align: center;
-    padding: 10px;
     width: 100%;
     bottom: 0;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
 }
 ul, ol {
     line-height: 1.6;
@@ -68,4 +68,16 @@ a:link{
 }
 a:hover {
     text-decoration: underline;
+}
+
+.header-section {
+    background-image: url('background.jpg'); /* Masukkan path gambar Anda */
+    background-size: cover; /* Agar gambar menyesuaikan ukuran header */
+    background-position: center; /* Menjaga gambar tetap di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    height: 300px; /* Tentukan tinggi header */
+    color: white; /* Sesuaikan warna teks agar terbaca dengan jelas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
