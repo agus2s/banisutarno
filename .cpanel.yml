@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dulr6223/public_html/banisutarno/
+    - /bin/cp -R images $DEPLOYPATH
