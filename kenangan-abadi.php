@@ -10,6 +10,8 @@ include 'header.php';
 				<li>Mbah Sanwarid sekalian (Karang Talun)</li>
 				<li>Mbah Sutarno bin Muryadi</li>
 				<li>Mbah Ngadisem binti Sanwarid</li>
+				<li>Ibu Suyati binti Suparjo</li>
+				<li>Ibu Rohmah binti Bunandir</li>
 				<li>Bapak H. Sujamin Ahmad Ansori bin Sutarno</li>
 				<li>Bapak Saebani bin Sutarno</li>
             </ol>
