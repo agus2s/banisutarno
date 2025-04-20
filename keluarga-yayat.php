@@ -1,0 +1,13 @@
+<?php include 'header.php'; ?>
+    <main>
+        <section>
+            <h2>Ibu Sri Sukaesih bersuami Bapak Yayat</h2>
+            <p>Ibu Sri Sukaesih adalah anak dari <a href="keluarga-dirsyam.php">Ibu Salimah dengan Bapak Dirsyam</a>. Beliau bersuami Bapak Yayat dan memiliki 2 anak</p>
+            <h3>Daftar Anak</h3>
+            <ol>
+                <li>Nisa</li>
+                <li>Ulima</li>
+            </ol>
+        </section>
+    </main>
+<?php include 'footer.php'; ?>
