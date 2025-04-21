@@ -1,24 +1,39 @@
 <?php
 include 'header.php';
 ?>
-<h2>Silsilah Keluarga</h2>
-<img src="silsilah.svg" id="zoomable" width="500">
-<script>
-	const img = document.getElementById("zoomable");
-	let scale = 1; // Menyimpan level zoom
-
-	img.addEventListener("wheel", (event) => {
-		event.preventDefault();
-		let zoomFactor = event.deltaY < 0 ? 1.1 : 0.9;
-		let newScale = scale * zoomFactor;
-
-		// Tetapkan batas zoom (misalnya 0.5x hingga 3x ukuran asli)
-		if (newScale >= 0.5 && newScale <= 3) {
-			scale = newScale;
-			img.style.transform = `scale(${scale})`;
-		}
-	});
-</script>
+<main>
+	<section>
+		<h2>Silsilah Keluarga</h2>
+		<script type="module">
+			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+			mermaid.initialize({ startOnLoad: false });
+			async function renderMermaid() {
+				const elementId = "mermaidChart";
+				const diagramDefinition = 
+				`flowchart LR
+					A["Mbah Sutarno 
+					❤
+					Mbah Ngadisem"] 
+					A --> B["Sungadi"] & C["Salimah"] & D["Sujamin"] & E["Suwahmi"] & F["Sudarno"] & G["Sungadiyah"] & H["Saebani"] & I["Supriyo"] & J["Siti Jaenah"] & K["Siti Nuriyah"]
+					B --> Teguh["Teguh"] & Kukuh["Kukuh"] & Puguh["Puguh"]
+					C --> Kholid["Kholid"] & Mus["Mus"] & Nining["Nining"] & Tikah["Tikah"]
+					D --> Fuad["Fuad"]
+					E --> Tofik["Tofik"] & Tantri["Tantri"]
+					F --> Agus["Agus"] & Adi["Adi"] & Arif["Arif"]
+					G --> Fitri["Fitri"]
+					H --> Muti["Muti"] & Fatur["Fatur"]
+					I --> Eko["Eko"] & Mansur["Mansur"] & Rheza["Rheza"] & Bayu["Bayu"]
+					J --> Aip["Aip"] & Ifan["Ifan"] & Efin["Efin"]
+					K --> Ipul["Ipul"] & Izul["Izul"]
+				`;
+				const { svg } = await mermaid.render(elementId, diagramDefinition);
+				document.getElementById("output").innerHTML = svg;
+			}
+			renderMermaid();
+		</script>
+		<div id="output"></div>
+	</section>
+</main>
 <?php
 include 'footer.php';
 ?>
