@@ -4,7 +4,7 @@ include 'header.php';
     <main>
         <section>
             <h2>H. Muhammad Sutarno beristri Hj. Ngadisem</h2>
-            <p>H. Muhammad Sutarno adalah seorang pegawai KUA yang beristrikan Hj. Ngadisem. Mereka memiliki 10 orang anak.</p>
+            <p>H. Muhammad Sutarno adalah seorang pegawai KUA yang beristrikan Hj. Ngadisem. Beliau memiliki 10 orang anak.</p>
             <h3>Daftar Anak</h3>
             <ol>
                 <li><a href="keluarga-sungadi.php">Bapak Muhammad Sungadi beristri Ibu Suyati</a></li>
