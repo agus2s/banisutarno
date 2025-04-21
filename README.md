@@ -13,9 +13,3 @@ Dokumentasi Digital: Menyimpan dokumen penting seperti foto, surat, atau catatan
 
 Teknologi yang Digunakan
 Frontend: HTML, CSS, JavaScript
-
-Backend: Node.js dengan Express.js
-
-Database: MySQL untuk menyimpan data keluarga
-
-Visualisasi: D3.js untuk membuat diagram silsilah interaktif
