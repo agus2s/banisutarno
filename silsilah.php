@@ -1,12 +1,8 @@
 <?php
 include 'header.php';
 ?>
-<main>
-	<section>
-		<h2>Silsilah Keluarga</h2>
-		<img src="silsilah.svg" id="zoomable" width="500">
-	</section>
-</main>
+<h2>Silsilah Keluarga</h2>
+<img src="silsilah.svg" id="zoomable" width="500">
 <script>
 	const img = document.getElementById("zoomable");
 	let scale = 1; // Menyimpan level zoom
