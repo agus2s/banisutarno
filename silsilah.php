@@ -25,6 +25,10 @@ include 'header.php';
 					I --> Eko["Eko"] & Mansur["Mansur"] & Rheza["Rheza"] & Bayu["Bayu"]
 					J --> Aip["Aip"] & Ifan["Ifan"] & Efin["Efin"]
 					K --> Ipul["Ipul"] & Izul["Izul"]
+					click A "index.php"
+					click B "keluarga-sungadi.php"
+					click C "keluarga-dirsyam.php"
+					click D "keluarga-sujamin.php"
 				`;
 				const { svg } = await mermaid.render(elementId, diagramDefinition);
 				document.getElementById("output").innerHTML = svg;
