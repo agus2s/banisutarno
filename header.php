@@ -11,7 +11,7 @@
         <h1>Keluarga Besar H. Muhammad Sutarno</h1>
         <nav>
             <a href="index.php">Beranda</a>
-            <a href="#silsilah">Silsilah</a>
+            <a href="silsilah.php">Silsilah</a>
             <a href="kenangan-abadi.php">Kenangan Abadi</a>
         </nav>
     </header>
