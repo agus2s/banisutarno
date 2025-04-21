@@ -14,7 +14,7 @@ include 'header.php';
 					A["Mbah Sutarno 
 					❤
 					Mbah Ngadisem"] 
-					A --> B["Sungadi"] & C["Salimah"] & D["Sujamin"] & E["Suwahmi"] & F["Sudarno"] & G["Sungadiyah"] & H["Saebani"] & I["Supriyo"] & J["Siti Jaenah"] & K["Siti Nuriyah"]
+					A --> B["Bapak Sungadi"] & C["Ibu Salimah"] & D["Bapak Sujamin"] & E["Ibu Suwahmi"] & F["Bapak Sudarno"] & G["Ibu Sungadiyah"] & H["Bapak Saebani"] & I["Bapak Supriyo"] & J["Ibu Siti Jaenah"] & K["Ibu Siti Nuriyah"]
 					B --> Teguh["Teguh"] & Kukuh["Kukuh"] & Puguh["Puguh"]
 					C --> Kholid["Kholid"] & Mus["Mus"] & Nining["Nining"] & Tikah["Tikah"]
 					D --> Fuad["Fuad"]
