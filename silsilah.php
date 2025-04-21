@@ -9,10 +9,18 @@ include 'header.php';
 </main>
 <script>
 	const img = document.getElementById("zoomable");
+	let scale = 1; // Menyimpan level zoom
+
 	img.addEventListener("wheel", (event) => {
 		event.preventDefault();
-		let scale = event.deltaY < 0 ? 1.1 : 0.9;
-		img.style.transform = `scale(${scale})`;
+		let zoomFactor = event.deltaY < 0 ? 1.1 : 0.9;
+		let newScale = scale * zoomFactor;
+
+		// Tetapkan batas zoom (misalnya 0.5x hingga 3x ukuran asli)
+		if (newScale >= 0.5 && newScale <= 3) {
+			scale = newScale;
+			img.style.transform = `scale(${scale})`;
+		}
 	});
 </script>
 <?php
