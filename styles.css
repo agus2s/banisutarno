@@ -60,7 +60,6 @@ ul, ol {
     line-height: 1.6;
 }
 section {
-    flex: 1 0 600px; /* Flex item dengan lebar minimum 300px */
     margin: 10px;
 }
 a:link{
