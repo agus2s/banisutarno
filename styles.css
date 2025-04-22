@@ -81,3 +81,47 @@ a:hover {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-color: #87CEEB; /* Warna lebih terang untuk layar kecil */
+        padding: 0 10px; /* Beri jarak di sisi */
+    }
+    header h1 {
+        font-size: 1.5em; /* Ukuran font lebih kecil */
+        padding: 0.5em;
+    }
+    nav {
+        flex-direction: column; /* Navigasi vertikal untuk layar kecil */
+        align-items: center;
+    }
+    nav a {
+        margin: 5px 0; /* Spasi antar elemen nav */
+    }
+    main {
+        padding: 10px;
+    }
+    .header-section {
+        height: 200px; /* Tinggi header lebih kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+    nav a {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: #B0E0E6; /* Warna lain untuk tablet */
+    }
+    header {
+        max-width: 100%; /* Header memenuhi lebar layar tablet */
+    }
+    main {
+        max-width: 90%; /* Main lebih lebar untuk tablet */
+    }
+}
