@@ -29,6 +29,13 @@ include 'header.php';
 					click B "keluarga-sungadi.php"
 					click C "keluarga-dirsyam.php"
 					click D "keluarga-sujamin.php"
+					click E "keluarga-rochmat.php"
+					click F "keluarga-sudarno.php"
+					click G "keluarga-triwibowo.php"
+					click H "keluarga-saebani.php"
+					click I "keluarga-supriyo.php"
+					click J "keluarga-asep.php"
+					click K "keluarga-sitinuriyah.php"
 				`;
 				const { svg } = await mermaid.render(elementId, diagramDefinition);
 				document.getElementById("output").innerHTML = svg;
