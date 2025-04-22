@@ -1,9 +1,9 @@
 <?php
-const DIAGRAM = 'graph TD
-    A[Mbah Muryadi] --> C[Mbah Sutarno]
-    B[Mbah Sanwarid] --> D[Mbah Ngadisem]
-    C --> Anak-anak
-    D --> Anak-anak
+const DIAGRAM = 'flowchart TD;
+    A[Mbah Muryadi] --> C[Mbah Sutarno];
+    B[Mbah Sanwarid] --> D[Mbah Ngadisem];
+    C --> Anak-anak;
+    D --> Anak-anak;
     ';
 include 'header.php';
 ?>
