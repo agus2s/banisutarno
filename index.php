@@ -1,4 +1,10 @@
 <?php
+const DIAGRAM = 'graph TD
+    A[Mbah Muryadi] --> C[Mbah Sutarno]
+    B[Mbah Sanwarid] --> D[Mbah Ngadisem]
+    C --> Anak-anak
+    D --> Anak-anak
+    ';
 include 'header.php';
 ?>
     <main>
@@ -18,6 +24,10 @@ include 'header.php';
                 <li><a href="keluarga-asep.php">Ibu Hj. Siti Jaenah bersuami Bapak H. Asep Rochaenasyir</a></li>                
                 <li><a href="keluarga-sitinuriyah.php">Ibu Siti Nuriyah</a></li>
             </ol>
+        </section>
+        <section>
+            <h3>Garis Keturunan</h3>
+            <div id="output"></div>
         </section>
     </main>
 <?php
