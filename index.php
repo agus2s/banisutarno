@@ -25,12 +25,7 @@ include 'header.php';
                 <li><a href="keluarga-sitinuriyah.php">Ibu Siti Nuriyah</a></li>
             </ol>
         </section>
-        <section>
-            <h3>Garis Keturunan</h3>
-            <div id="output"></div>
-        </section>
-    </main>
-    <script type="module">
+        <script type="module">
 			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
 			mermaid.initialize({ startOnLoad: false });
 			async function renderMermaid() {
@@ -41,6 +36,11 @@ include 'header.php';
 			}
 			renderMermaid();
 		</script>
+        <section>
+            <h3>Garis Keturunan</h3>
+            <div id="output"></div>
+        </section>
+    </main>
 <?php
 include 'footer.php';
 ?>
