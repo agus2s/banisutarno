@@ -56,6 +56,9 @@ footer {
     width: 100%;
     max-width: 1200px;
 }
+section {
+    width: 100%;
+}
 ul, ol {
     line-height: 1.6;
 }
