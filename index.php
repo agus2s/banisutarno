@@ -30,7 +30,7 @@ include 'header.php';
 			mermaid.initialize({ startOnLoad: false });
 			async function renderMermaid() {
 				const elementId = "mermaidChart";
-				const diagramDefinition = <?=DIAGRAM?>;
+				const diagramDefinition = `<?=DIAGRAM?>`;
 				const { svg } = await mermaid.render(elementId, diagramDefinition);
 				document.getElementById("output").innerHTML = svg;
 			}
