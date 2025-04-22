@@ -1,16 +1,5 @@
 <?php
-include 'header.php';
-?>
-<main>
-	<section>
-		<h2>Silsilah Keluarga</h2>
-		<script type="module">
-			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
-			mermaid.initialize({ startOnLoad: false });
-			async function renderMermaid() {
-				const elementId = "mermaidChart";
-				const diagramDefinition = 
-				`flowchart LR
+const DIAGRAM = 'flowchart LR
 					A["Mbah Sutarno 
 					❤
 					Mbah Ngadisem"] 
@@ -36,7 +25,19 @@ include 'header.php';
 					click I "keluarga-supriyo.php"
 					click J "keluarga-asep.php"
 					click K "keluarga-sitinuriyah.php"
-				`;
+			';
+include 'header.php';
+?>
+<main>
+	<section>
+		<h2>Silsilah Keluarga</h2>
+		<script type="module">
+			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+			mermaid.initialize({ startOnLoad: false });
+			async function renderMermaid() {
+				const elementId = "mermaidChart";
+				const diagramDefinition = 
+				;
 				const { svg } = await mermaid.render(elementId, diagramDefinition);
 				document.getElementById("output").innerHTML = svg;
 			}
