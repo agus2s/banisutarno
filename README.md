@@ -13,3 +13,4 @@ Dokumentasi Digital: Menyimpan dokumen penting seperti foto, surat, atau catatan
 
 Teknologi yang Digunakan
 Frontend: HTML, CSS, JavaScript
+Backend: PHP
