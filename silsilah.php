@@ -25,6 +25,9 @@ const DIAGRAM = 'flowchart LR
 					click I "keluarga-supriyo.php"
 					click J "keluarga-asep.php"
 					click K "keluarga-sitinuriyah.php"
+					click Teguh "keluarga-teguh.php"
+					cilck Kukuh "keluarga-kukuh.php"
+					
 			';
 include 'header.php';
 ?>
