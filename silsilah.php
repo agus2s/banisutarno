@@ -26,9 +26,16 @@ const DIAGRAM = 'flowchart LR
 					click J "keluarga-asep.php"
 					click K "keluarga-sitinuriyah.php"
 					click Teguh "keluarga-teguh.php"
-					cilck Kukuh "keluarga-kukuh.php"
-					
-			';
+					click Kukuh "keluarga-kukuh.php"
+					click Kholid "keluarga-kholid.php"
+					click Mus "keluarga-paryan.php"
+					click Nining "keluarga-yayat.php"
+					click Tikah "keluarga-sodikun.php"
+					click Fuad "keluarga-fuad.php"
+					click Tofik "keluarga-tofik.php"
+					click Tantri "keluarga-tantri.php"
+					click Agus "keluarga-agus.php"
+					click Adi "keluarga-adi.php"';
 include 'header.php';
 ?>
 <main>
