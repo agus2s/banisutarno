@@ -11,15 +11,16 @@
     </script>
 </head>
 <body>
-	<header>
-        <h1>Keluarga Besar H. Muhammad Sutarno</h1>
-        <nav>
-            <a href="index.php">Beranda</a>
-            <a href="silsilah.php">Silsilah</a>
-            <a href="kenangan-abadi.php">Kenangan Abadi</a>
-        </nav>
-    </header>
-	<main>
+<header>
+	<h1>Keluarga Besar H. Muhammad Sutarno</h1>
+	<nav>
+		<a href="index.php">Beranda</a>
+		<a href="silsilah.php">Silsilah</a>
+		<a href="kenangan-abadi.php">Kenangan Abadi</a>
+	</nav>
+</header>
+<main>
+	<section>
 		<h2>Diagram Keluarga</h2>
 		<div class="mermaid">
 		flowchart LR
@@ -62,7 +63,8 @@
 			click Agus "keluarga-agus.php"
 			click Adi "keluarga-adi.php"
 		</div>
-	</main>
+	</section>
+</main>
 </body>
 </html>
 
