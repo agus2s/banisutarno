@@ -81,6 +81,11 @@ a:hover {
     align-items: center;
 }
 
+.mermaid {
+    text-align: center;
+    align-items: center;
+}
+
 #output {
     text-align: center;
     align-items: center;
