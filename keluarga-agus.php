@@ -21,7 +21,7 @@
 
 		async function renderMermaid() {
 			const elementId = "mermaidChart";
-			const diagramDefinition = `flowchart LR
+			const diagramDefinition = `flowchart TD
 			A["Mbah Sutarno"] 
 			A --> F["Bapak Sudarno"]
 			F --> Agus["Agus"]
