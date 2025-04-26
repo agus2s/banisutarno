@@ -64,5 +64,6 @@
 			click Adi "keluarga-adi.php"
 		</div>
 	</section>
+	
 </main>
 <?php include 'footer.php'; ?>
