@@ -22,12 +22,12 @@
 		async function renderMermaid() {
 			const elementId = "mermaidChart";
 			const diagramDefinition = `flowchart TD
-			A["Mbah Sutarno"] 
-			A --> F["Bapak Sudarno"]
-			F --> Agus["Agus"]
+			Sutarno["Mbah Sutarno"] 
+			Sutarno --> Sudarno["Bapak Sudarno"]
+			Sudarno --> Agus["Bapak Agus Supriyadi"]
 
-			click A "index.php"
-			click F "keluarga-sudarno.php"`;
+			click Sutarno "index.php"
+			click Sudarno "keluarga-sudarno.php"`;
 			const { svg } = await mermaid.render(elementId, diagramDefinition);
 			document.getElementById("output").innerHTML = svg;
 		}
