@@ -9,7 +9,7 @@ body {
 }
 header {
     background-color: #1976d2; 
-    background-image: url('background.jpg'); /* Masukkan path gambar Anda */	
+    background-image: url('../header.jpg'); /* Masukkan path gambar Anda */	
 	background-size: cover; /* Agar gambar menyesuaikan ukuran header */
     color: white;
     text-align: left;
