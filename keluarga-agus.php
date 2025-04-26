@@ -10,5 +10,22 @@
                 <li>Asyifa Hanna Fauziyah</li>
             </ol>
         </section>
+		<script type="module">
+			import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+			mermaid.initialize({ startOnLoad: true });
+		</script>
+		<section>
+		<h2>Diagram Keluarga</h2>
+			<div class="mermaid">
+			flowchart LR
+				A["Mbah Sutarno ❤ Mbah Ngadisem"] 
+				A --> F["Bapak Sudarno"]
+				F --> Agus["Agus"]
+
+				click A "index.php"
+				click F "keluarga-sudarno.php"
+				click Agus "keluarga-agus.php"
+			</div>
+		</section>
     </main>
 <?php include 'footer.php'; ?>
