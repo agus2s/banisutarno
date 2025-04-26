@@ -11,7 +11,7 @@
             </ol>
         </section>
 		<section>
-			<h2>Garis Keturunan</h2>
+			<h3>Garis Keturunan</h3>
 			<div id="output"></div>
 		</section>
     </main>
@@ -27,8 +27,7 @@
 			F --> Agus["Agus"]
 
 			click A "index.php"
-			click F "keluarga-sudarno.php"
-			click Agus "keluarga-agus.php"`;
+			click F "keluarga-sudarno.php"`;
 			const { svg } = await mermaid.render(elementId, diagramDefinition);
 			document.getElementById("output").innerHTML = svg;
 		}
