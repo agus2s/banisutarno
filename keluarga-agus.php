@@ -10,22 +10,29 @@
                 <li>Asyifa Hanna Fauziyah</li>
             </ol>
         </section>
-		<script>
-			import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-			mermaid.initialize({ startOnLoad: true });
-		</script>
 		<section>
 		<h2>Garis Keturunan</h2>
-			<div class="mermaid">
-			flowchart LR
+			<div class="output"></div>
+		</section>
+		<script type="module">
+			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+			mermaid.initialize({ startOnLoad: false });
+
+			async function renderMermaid() {
+				const elementId = "mermaidChart";
+				const diagramDefinition = `flowchart LR
 				A["Mbah Sutarno"] 
 				A --> F["Bapak Sudarno"]
 				F --> Agus["Agus"]
 
 				click A "index.php"
 				click F "keluarga-sudarno.php"
-				click Agus "keluarga-agus.php"
-			</div>
-		</section>
+				click Agus "keluarga-agus.php"`;
+				const { svg } = await mermaid.render(elementId, diagramDefinition);
+				document.getElementById("output").innerHTML = svg;
+			}
+
+			renderMermaid();
+		</script>
     </main>
 <?php include 'footer.php'; ?>
