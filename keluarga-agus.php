@@ -10,15 +10,15 @@
                 <li>Asyifa Hanna Fauziyah</li>
             </ol>
         </section>
-		<script type="module">
+		<script>
 			import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 			mermaid.initialize({ startOnLoad: true });
 		</script>
 		<section>
-		<h2>Diagram Keluarga</h2>
+		<h2>Garis Keturunan</h2>
 			<div class="mermaid">
 			flowchart LR
-				A["Mbah Sutarno ❤ Mbah Ngadisem"] 
+				A["Mbah Sutarno"] 
 				A --> F["Bapak Sudarno"]
 				F --> Agus["Agus"]
 
