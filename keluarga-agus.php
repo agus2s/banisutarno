@@ -12,7 +12,7 @@
         </section>
 		<section>
 			<h2>Garis Keturunan</h2>
-			<div class="output"></div>
+			<div id="output"></div>
 		</section>
     </main>
 	<script type="module">
