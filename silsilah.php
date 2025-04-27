@@ -21,10 +21,10 @@
 </header>
 <main>
 	<section>
-		<h2>Diagram Keluarga</h2>
+		<h2>Silsilah Keluarga</h2>
 		<div class="mermaid">
 		flowchart LR
-			A["Mbah Sutarno ❤ Mbah Ngadisem"] 
+			A["Mbah Sutarno"] 
 			A --> B["Bapak Sungadi"] & C["Ibu Salimah"] & D["Bapak Sujamin"] & E["Ibu Suwahmi"] 
 			A --> F["Bapak Sudarno"] & G["Ibu Sungadiyah"] & H["Bapak Saebani"] & I["Bapak Supriyo"] 
 			A --> J["Ibu Siti Jaenah"] & K["Ibu Siti Nuriyah"]
