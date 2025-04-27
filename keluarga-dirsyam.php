@@ -17,7 +17,12 @@
         flowchart TD
             A["Mbah Sutarno"] --> B["Ibu Salimah"]
             B --> C["Bapak Kholid"] & D["Ibu Muslikhah"] & E["Ibu Sri Sukaesih"] & F["Ibu Etikah"]
+
             click A "index.php"
+            click C "keluarga-kholid.php"
+            click D "keluarga-paryan.php"
+            click E "keluarga-yayat.php"
+            click F "keluarga-sodikun.php"
         </div>
     </section>
     <script type="module">

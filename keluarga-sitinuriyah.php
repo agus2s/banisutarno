@@ -14,7 +14,9 @@
         <div class="mermaid">
             flowchart TD
                 A["Mbah Sutarno"] --> B["Ibu Siti Nuriyah"]
+                B --> C["Bapak Saiful"] & D["Bapak Faizul"]
                 click A "index.php"
+                click C "keluarga-saiful.php"
         </div>
     </section>
     <script type="module">

@@ -15,6 +15,7 @@
             A["Mbah Sutarno"] 
             A --> B["Ibu Salimah"]
             B --> C["Ibu Sri Sukaesih"]
+            C --> D["Nisa"] & E["Ulima"]
 
             click A "index.php"
             click B "keluarga-dirsyam.php"

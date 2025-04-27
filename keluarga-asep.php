@@ -15,6 +15,7 @@
         <div class="mermaid">
         flowchart TD
             A["Mbah Sutarno"] --> B["Ibu Siti Jaenah"]
+            B --> C["Bapak Aip"] & D["Bapak Ifan"] & E["Efin Agam"]
             click A "index.php"
         </div>
     </section>

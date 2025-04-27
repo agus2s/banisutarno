@@ -18,6 +18,8 @@
             B --> C["Bapak Teguh"] & D["Bapak Kukuh"] & E["Bapak Puguh"]
             
             click A "index.php"
+            click C "keluarga-teguh.php"
+            click D "keluarga-kukuh.php"
         </div>
     </section>
     <script type="module">
