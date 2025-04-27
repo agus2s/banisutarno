@@ -8,5 +8,17 @@
                 <li>Ibu Fitri bersuami Bapak Zaenal</li>
             </ol>
         </section>
+        <section>
+            <h3>Garis Keturunan</h3>
+            <div class="mermaid">
+            flowchart TD
+                A["Mbah Sutarno"] --> B["Ibu Sungadiyah"]
+                click A "index.php"
+            </div>
+        </section>
+        <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: true });
+        </script>
     </main>
 <?php include 'footer.php'; ?>

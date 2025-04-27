@@ -1,13 +1,25 @@
 <?php include 'header.php'; ?>
-    <main>
-        <section>
-            <h2>Ibu Siti Nuriyah</h2>
-            <p>Ibu Siti Nuriyah adalah anak bungsu dari <a href="index.php">Mbah H. Muhammad Sutarno dan Mbah Hj. Ngadisem</a>. Beliau  memiliki 2 orang anak.</p>
-            <h3>Daftar Anak</h3>
-            <ol>
-                <li><a href="keluarga-saiful.php">Bapak Saiful beristri Ibu Dwi</a></li>
-                <li>Bapak Faizul</li>
-            </ol>
-        </section>
-    </main>
+<main>
+    <section>
+        <h2>Ibu Siti Nuriyah</h2>
+        <p>Ibu Siti Nuriyah adalah anak bungsu dari <a href="index.php">Mbah H. Muhammad Sutarno dan Mbah Hj. Ngadisem</a>. Beliau  memiliki 2 orang anak.</p>
+        <h3>Daftar Anak</h3>
+        <ol>
+            <li><a href="keluarga-saiful.php">Bapak Saiful beristri Ibu Dwi</a></li>
+            <li>Bapak Faizul</li>
+        </ol>
+    </section>
+    <section>
+        <h3>Garis Keturunan</h3>
+        <div class="mermaid">
+            flowchart TD
+                A["Mbah Sutarno"] --> B["Ibu Siti Nuriyah"]
+                click A "index.php"
+        </div>
+    </section>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</main>
 <?php include 'footer.php'; ?>

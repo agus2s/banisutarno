@@ -1,14 +1,29 @@
 <?php include 'header.php'; ?>
-    <main>
-        <section>
-            <h2>Ibu Muslikhah Suhesti bersuami Bapak Paryan</h2>
-            <p>Ibu Muslikhah Suhesti adalah anak pertama dari <a href="keluarga-dirsyam.php">Ibu Salimah dengan Bapak Dirsyam</a>. Beliau bersuami Bapak Paryan dan memiliki 3 anak</p>
-            <h3>Daftar Anak</h3>
-            <ol>
-                <li>Alfi</li>
-                <li>Laili</li>
-                <li>Ilham</li>
-            </ol>
-        </section>
-    </main>
+<main>
+    <section>
+        <h2>Ibu Muslikhah Suhesti bersuami Bapak Paryan</h2>
+        <p>Ibu Muslikhah Suhesti adalah anak pertama dari <a href="keluarga-dirsyam.php">Ibu Salimah dengan Bapak Dirsyam</a>. Beliau bersuami Bapak Paryan dan memiliki 3 anak</p>
+        <h3>Daftar Anak</h3>
+        <ol>
+            <li>Alfi</li>
+            <li>Laili</li>
+            <li>Ilham</li>
+        </ol>
+    </section>
+    <section>
+        <h3>Garis Keturunan</h3>
+        <div class="mermaid">flowchart TD
+            A["Mbah Sutarno"] 
+            A --> B["Ibu Salimah"]
+            B --> C["Ibu Muslikhah"]
+
+            click A "index.php"
+            click B "keluarga-dirsyam.php"
+        </div>
+	</section>
+	<script type="module">
+		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+		mermaid.initialize({ startOnLoad: true });
+	</script>
+</main>
 <?php include 'footer.php'; ?>
