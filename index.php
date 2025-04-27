@@ -18,6 +18,7 @@ include 'header.php';
 			<li><a href="keluarga-asep.php">Ibu Hj. Siti Jaenah bersuami Bapak H. Asep Rochaenasyir</a></li>                
 			<li><a href="keluarga-sitinuriyah.php">Ibu Siti Nuriyah</a></li>
 		</ol>
+		<p>Lihat silsilah keluarga besar H. Muhammad Sutarno <a href="silsilah.php">di sini</a>.</p>
 	</section>
 </main>
 <?php
