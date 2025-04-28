@@ -14,14 +14,12 @@
             A["Mbah Sutarno"] 
             A --> B["Bapak Sujamin"]
             B --> C["Bapak Fuad"]
-
+            D["Ibu Tuti"] --> C
+            C --> F["Furqon"]
+            E["Ibu Selly"] --> F
             click A "index.php"
             click B "keluarga-sujamin.php"
         </div>
 	</section>
-	<script type="module">
-		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-		mermaid.initialize({ startOnLoad: true });
-	</script>
 </main>
 <?php include 'footer.php'; ?>

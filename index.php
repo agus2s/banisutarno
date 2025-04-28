@@ -18,7 +18,6 @@ include 'header.php';
 			<li><a href="keluarga-asep.php">Ibu Hj. Siti Jaenah bersuami Bapak H. Asep Rochaenasyir</a></li>                
 			<li><a href="keluarga-sitinuriyah.php">Ibu Siti Nuriyah</a></li>
 		</ol>
-		<p>Lihat silsilah keluarga besar H. Muhammad Sutarno <a href="silsilah.php">di sini</a>.</p>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga</h3>
@@ -36,11 +35,7 @@ include 'header.php';
 			click 9 "keluarga-asep.php" "Ibu Hj. Siti Jaenah"
 			click 10 "keluarga-sitinuriyah.php" "Ibu Siti Nuriyah"
 		</div>
-		<div id="tooltip"></div>
+		<p>Lihat silsilah keluarga besar H. Muhammad Sutarno lebih lengkap <a href="silsilah.php">di sini</a>.</p>
 	</section>
-	<script type="module">
-		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-		mermaid.initialize({ startOnLoad: true });
-	</script>
 </main>
 <?php include 'footer.php'; ?>

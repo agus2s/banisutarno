@@ -17,14 +17,10 @@
             A --> B["Ibu Salimah"]
             B --> C["Ibu Muslikhah"]
             C --> D["Alfi"] & E["Laili"] & F["Ilham"]
-
+            G["Bapak Dirsyam"] --> C
             click A "index.php"
             click B "keluarga-dirsyam.php"
         </div>
 	</section>
-	<script type="module">
-		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-		mermaid.initialize({ startOnLoad: true });
-	</script>
 </main>
 <?php include 'footer.php'; ?>

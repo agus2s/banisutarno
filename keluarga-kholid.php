@@ -11,20 +11,16 @@
         </ol>
     </section>
     <section>
-        <h3>Garis Keturunan</h3>
+        <h3>Silsilah keluarga</h3>
         <div class="mermaid">flowchart TD
             A["Mbah Sutarno"] 
             A --> B["Ibu Salimah"]
             B --> C["Bapak Kholid"]
             C --> D["Alita Gladys"] & E["Rizky Pramudyas"] & F["Reza Jaka"]
-
+            G["Bapak Dirsyam"] --> C
             click A "index.php"
             click B "keluarga-dirsyam.php"
         </div>
 	</section>
-	<script type="module">
-		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-		mermaid.initialize({ startOnLoad: true });
-	</script>
 </main>
 <?php include 'footer.php'; ?>

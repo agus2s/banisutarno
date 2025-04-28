@@ -17,11 +17,9 @@
                 A["Mbah Sutarno"] --> B["Bapak Sudarno"]
                 B --> C["Bapak Agus"] & D["Bapak Aditya"] & Arif
                 click A "index.php"
+                click C "keluarga-agus.php"
+                click D "keluarga-aditya.php"
             </div>
         </section>
-        <script type="module">
-            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-            mermaid.initialize({ startOnLoad: true });
-        </script>
     </main>
 <?php include 'footer.php'; ?>

@@ -8,5 +8,16 @@
                 <li> Revanda Zavier Zayn</li>
             </ol>
         </section>
+        <section>
+            <h3>Silsilah Keluarga</h3>
+            <div class="mermaid">flowchart TD
+                    A["Mbah Sutarno"] --> B["Ibu Siti Jaenah"]
+                    E["Bapak H. Asep"] --> C
+                    B --> C["Bapak Ifan"]
+                    C --> D["Revanda Zavier Zayn"]
+                    click A "index.php"
+                    click B "keluarga-asep.php"
+            </div>
+        </section>
     </main>
 <?php include 'footer.php'; ?>

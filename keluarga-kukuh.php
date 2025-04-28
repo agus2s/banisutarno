@@ -10,14 +10,11 @@
             A["Mbah Sutarno"] 
             A --> B["Bapak Sungadi"]
             B --> C["Bapak Kukuh"]
+            D["Ibu Suyati"] --> C
 
             click A "index.php"
             click B "keluarga-sungadi.php"
         </div>
 	</section>
-	<script type="module">
-		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-		mermaid.initialize({ startOnLoad: true });
-	</script>
 </main>
 <?php include 'footer.php'; ?>
