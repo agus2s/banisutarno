@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silsilah Keluarga</title>
-    <link rel="stylesheet" href="styles.css">
-	<script type="module">
-        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
-    </script>
-</head>
-<body>
-<header>
-	<h1>Keluarga Besar H. Muhammad Sutarno</h1>
-	<nav>
-		<a href="index.php">Beranda</a>
-		<a href="silsilah.php">Silsilah</a>
-		<a href="kenangan-abadi.php">Kenangan Abadi</a>
-	</nav>
-</header>
+<?php include 'header.php'; ?>
 <main>
-	<section>
-		<h2>Silsilah Keluarga</h2>
+	<h1>Silsilah Keluarga</h1>
+	<section>	
 		<div class="mermaid">
 		flowchart LR
 			A["Mbah Sutarno"] 
@@ -64,6 +44,9 @@
 			click Adi "keluarga-adi.php"
 		</div>
 	</section>
-	
+	<script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
 </main>
 <?php include 'footer.php'; ?>
