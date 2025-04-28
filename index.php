@@ -20,7 +20,16 @@ include 'header.php';
 		</ol>
 		<p>Lihat silsilah keluarga besar H. Muhammad Sutarno <a href="silsilah.php">di sini</a>.</p>
 	</section>
+	<section>
+		<h3>Silsilah Keluarga</h3>
+		<div class="mermaid">flowchart TD
+			A["Mbah Sutarno"] 
+			A --> 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10
+		</div>
+	</section>
+	<script type="module">
+		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+		mermaid.initialize({ startOnLoad: true });
+	</script>
 </main>
-<?php
-include 'footer.php';
-?>
+<?php include 'footer.php'; ?>
