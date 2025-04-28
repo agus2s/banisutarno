@@ -25,7 +25,18 @@ include 'header.php';
 		<div class="mermaid">flowchart TD
 			A["Mbah Sutarno"] 
 			A --> 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10
+			click 1 "keluarga-sungadi.php" "Bapak Muhammad Sungadi"
+			click 2 "keluarga-dirsyam.php" "Ibu Salimah"
+			click 3 "keluarga-sujamin.php" "Bapak H. Sujamin A. Ansori"
+			click 4 "keluarga-rochmat.php" "Ibu Suwahmi"
+			click 5 "keluarga-sudarno.php" "Bapak H. Sudarno"
+			click 6 "keluarga-triwibowo.php" "Ibu Sungadiyah"
+			click 7 "keluarga-saebani.php" "Bapak Saebani"
+			click 8 "keluarga-supriyo.php" "Bapak H. Tamyiz Supriyo"
+			click 9 "keluarga-asep.php" "Ibu Hj. Siti Jaenah"
+			click 10 "keluarga-sitinuriyah.php" "Ibu Siti Nuriyah"
 		</div>
+		<div id="tooltip"></div>
 	</section>
 	<script type="module">
 		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
