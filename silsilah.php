@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <main>
-	<h1>Silsilah Keluarga</h1>
 	<section>	
+		<h2>Silsilah Keluarga</h2>
 		<div class="mermaid">
 		flowchart LR
 			A["Mbah Sutarno"] 

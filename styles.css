@@ -191,3 +191,14 @@ a:hover {
         background-size: cover;
     }
 }
+
+@media screen and (min-width: 1281px) {
+    main {
+        display: flex;
+    }
+    section {
+        flex: 1; /* Agar semua section memiliki lebar yang sama */
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+}

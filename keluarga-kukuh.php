@@ -5,7 +5,7 @@
         <p>Bapak Kukuh Dwi Karyadi Nugroho adalah anak dari <a href="keluarga-sungadi.php">Bapak Muhammad Sungadi dengan Ibu Suyati</a>.</p>
     </section>
     <section>
-        <h3>Garis Keturunan</h3>
+        <h3>Silsilah Keluarga</h3>
         <div class="mermaid">flowchart LR
             A["Mbah Sutarno"] 
             A --> B["Bapak Sungadi"]
