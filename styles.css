@@ -14,7 +14,6 @@ header {
     color: white;
     text-align: left;
     width: 100%;
-    max-width: 800px;
     margin: 0;
 }
 header h1 {
@@ -47,14 +46,12 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 760px;
 }
 footer {
     text-align: center;
     width: 100%;
     bottom: 0;
     width: 100%;
-    max-width: 1200px;
 }
 section {
     width: 100%;
@@ -95,7 +92,7 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
     font-size: 14px;       /* Ukuran teks */
     z-index: 1000;         /* Posisi di atas elemen lainnya */
-    max-width: 200px;      /* Batas lebar tooltip */
+    max-width: 300px;      /* Batas lebar tooltip */
 }  
 
 #output {
