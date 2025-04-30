@@ -31,7 +31,7 @@ include 'header.php';
 			A --> 5["Bapak H. Sudarno"]
 			A --> 6["Ibu Sungadiyah"]
 			A --> 7["Bapak Saebani"]
-			A --> 8["Ibu Hj. Tamyiz Supriyo"]
+			A --> 8["Bapak H. Tamyiz Supriyo"]
 			A --> 9["Ibu Hj. Siti Jaenah"]
 			A --> 10["Ibu Siti Nuriyah"]
 			click 1 "keluarga-sungadi.php" "Keluarga Bapak Muhammad Sungadi"
