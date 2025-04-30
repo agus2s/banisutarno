@@ -11,7 +11,7 @@
     <section>
         <h3>Garis Keturunan</h3>
         <div class="mermaid">
-        flowchart TD
+        flowchart LR
             A["Mbah Sutarno"] --> B["Bapak Sujamin"] --> C["Bapak Fuad"]
             click A "index.php"
             click C "keluarga-fuad.php"

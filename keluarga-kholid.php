@@ -12,7 +12,7 @@
     </section>
     <section>
         <h3>Silsilah keluarga</h3>
-        <div class="mermaid">flowchart TD
+        <div class="mermaid">flowchart LR
             A["Mbah Sutarno"] 
             A --> B["Ibu Salimah"]
             B --> C["Bapak Kholid"]

@@ -13,7 +13,7 @@
     <section>
         <h3>Garis Keturunan</h3>
         <div class="mermaid">
-        flowchart TD
+        flowchart LR
             A["Mbah Sutarno"] --> B["Bapak Sungadi"]
             B --> C["Bapak Teguh"] & D["Bapak Kukuh"] & E["Bapak Puguh"]
             

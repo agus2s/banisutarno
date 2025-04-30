@@ -13,7 +13,7 @@
     <section>
         <h3>Garis Keturunan</h3>
         <div class="mermaid">
-        flowchart TD
+        flowchart LR
             A["Mbah Sutarno"] --> B["Ibu Siti Jaenah"]
             B --> C["Bapak Aip"] & D["Bapak Ifan"] & E["Efin Agam"]
             click A "index.php"

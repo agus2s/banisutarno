@@ -6,7 +6,7 @@
     </section>
     <section>
         <h3>Garis Keturunan</h3>
-        <div class="mermaid">flowchart TD
+        <div class="mermaid">flowchart LR
             A["Mbah Sutarno"] 
             A --> B["Bapak Sungadi"]
             B --> C["Bapak Kukuh"]

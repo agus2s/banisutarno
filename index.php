@@ -21,19 +21,29 @@ include 'header.php';
 	</section>
 	<section>
 		<h3>Silsilah Keluarga</h3>
-		<div class="mermaid">flowchart TD
+		<div class="mermaid">
+			flowchart LR
 			A["Mbah Sutarno"] 
-			A --> 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10
-			click 1 "keluarga-sungadi.php" "Bapak Muhammad Sungadi"
-			click 2 "keluarga-dirsyam.php" "Ibu Salimah"
-			click 3 "keluarga-sujamin.php" "Bapak H. Sujamin A. Ansori"
-			click 4 "keluarga-rochmat.php" "Ibu Suwahmi"
-			click 5 "keluarga-sudarno.php" "Bapak H. Sudarno"
-			click 6 "keluarga-triwibowo.php" "Ibu Sungadiyah"
-			click 7 "keluarga-saebani.php" "Bapak Saebani"
-			click 8 "keluarga-supriyo.php" "Bapak H. Tamyiz Supriyo"
-			click 9 "keluarga-asep.php" "Ibu Hj. Siti Jaenah"
-			click 10 "keluarga-sitinuriyah.php" "Ibu Siti Nuriyah"
+			A --> 1["Bapak Muhammad Sungadi"]
+			A --> 2["Ibu Salimah"]
+			A --> 3["Bapak H. Sujamin A. Ansori"]
+			A --> 4["Ibu Suwahmi"]
+			A --> 5["Bapak H. Sudarno"]
+			A --> 6["Ibu Sungadiyah"]
+			A --> 7["Bapak Saebani"]
+			A --> 8["Ibu Hj. Tamyiz Supriyo"]
+			A --> 9["Ibu Hj. Siti Jaenah"]
+			A --> 10["Ibu Siti Nuriyah"]
+			click 1 "keluarga-sungadi.php" "Keluarga Bapak Muhammad Sungadi"
+			click 2 "keluarga-dirsyam.php" "Keluarga Bapak Dirsyam Adiwijaya"
+			click 3 "keluarga-sujamin.php" "Keluarga Bapak H. Sujamin A. Ansori"
+			click 4 "keluarga-rochmat.php" "Keluarga Bapak Rochmat"
+			click 5 "keluarga-sudarno.php" "Keluarga Bapak H. Sudarno"
+			click 6 "keluarga-triwibowo.php" "Keluarga Bapak Tri Wibowo"
+			click 7 "keluarga-saebani.php" "Keluarga Bapak Saebani"
+			click 8 "keluarga-supriyo.php" "Keluarga Bapak H. Tamyiz Supriyo"
+			click 9 "keluarga-asep.php" "Keluarhga Bapak H. Asep Rochaenasyir"
+			click 10 "keluarga-sitinuriyah.php" "Keluarga Ibu Siti Nuriyah"
 		</div>
 		<p>Lihat silsilah keluarga besar H. Muhammad Sutarno lebih lengkap <a href="silsilah.php">di sini</a>.</p>
 	</section>
