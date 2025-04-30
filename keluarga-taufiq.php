@@ -17,6 +17,7 @@
             B --> C["Bapak Taufiq"]
             C --> Radit
             C --> Yasmin
+            D[Bapak Rohmat] --> C
 
             click A "index.php"
             click B "keluarga-rochmat.php"

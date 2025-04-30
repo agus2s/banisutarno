@@ -24,9 +24,9 @@ include 'header.php';
 		<div class="mermaid">
 			flowchart LR
 			A["Mbah Sutarno"] 
-			A --> 1["Bapak Muhammad Sungadi"]
+			A --> 1["Bapak M. Sungadi"]
 			A --> 2["Ibu Salimah"]
-			A --> 3["Bapak H. Sujamin A. Ansori"]
+			A --> 3["Bapak H. Sujamin"]
 			A --> 4["Ibu Suwahmi"]
 			A --> 5["Bapak H. Sudarno"]
 			A --> 6["Ibu Sungadiyah"]

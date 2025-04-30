@@ -13,13 +13,25 @@
 			C --> Kholid["Kholid"] & Mus["Mus"] & Nining["Nining"] & Tikah["Tikah"]
 			D --> Fuad["Fuad"]
 			E --> Tofik["Tofik"] & Tantri["Tantri"]
-			F --> Agus["Agus"] & Adi["Adi"] & Arif["Arif"]
+			F --> Agus["Agus"] & Adi["Aditya"] & Arif["Arif"]
 			G --> Fitri["Fitri"]
 			H --> Muti["Muti"] & Fatur["Fatur"]
 			I --> Eko["Eko"] & Mansur["Mansur"] & Rheza["Rheza"] & Bayu["Bayu"]
 			J --> Aip["Aip"] & Ifan["Ifan"] & Efin["Efin"]
 			K --> Ipul["Ipul"] & Izul["Izul"]
 
+			Teguh --> Izzati
+			Kukuh --> Langgeng
+			Puguh --> Tiara
+			Kholid --> Ifa & Ira & Jaka
+			Mus --> Alfi & Laili & Ilham
+			Nining --> Nisa & Ulima
+			Tikah --> Alief & Hifni
+			Tofik --> Radit & Yasmin
+			Tantri --> Fatah & Fathian
+			Agus --> Afiqa & Arsyi & Hanna
+			Adi --> Qiya & Raffa
+			
 			click A "index.php"
 			click B "keluarga-sungadi.php"
 			click C "keluarga-dirsyam.php"

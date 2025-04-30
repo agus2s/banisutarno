@@ -13,6 +13,7 @@
         <div class="mermaid">
         flowchart LR
             A["Mbah Sutarno"] --> B["Bapak Sujamin"] --> C["Bapak Fuad"]
+            D[Ibu Hj. Tuti] --> C
             click A "index.php"
             click C "keluarga-fuad.php"
         </div>
