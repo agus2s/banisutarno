@@ -2,7 +2,7 @@
 <main>
     <section>
         <h2>Bapak H. Tamyiz Supriyo beristri Ibu Hj. Neng Aisi Pariha</h2>
-        <p>Bapak H. Sudarno adalah anak  dari <a href="index.php">Mbah H. Muhammad Sutarno dan Mbah Hj. Ngadisem</a>. Beliau beristri Ibu Hj. Neng Aisi Pariha dan memiliki 4 orang anak.</p>
+        <p>Bapak Tamyiz Supriyo adalah anak  dari <a href="index.php">Mbah H. Muhammad Sutarno dan Mbah Hj. Ngadisem</a>. Beliau beristri Ibu Hj. Neng Aisi Pariha dan memiliki 4 orang anak.</p>
         <h3>Daftar Anak</h3>
         <ol>
             <li><a href="keluarga-eko.php">Bapak Eko Priyo Purnomo beristri Ibu Siti Humairoh</a></li>
@@ -16,8 +16,9 @@
         <div class="mermaid">
         flowchart LR
             A["Mbah Sutarno"] --> B["Bapak Tamyiz Supriyo"]
-            B --> C["Bapak Eko Priyo"] & D["Bapak Mansyur"] & E["Bapak Rheza"] & F["Bayu Ajie"]
+            B --> 1["Bapak Eko Priyo"] & 2["Bapak Mansyur"] & 3["Bapak Rheza"] & 4["Bayu Ajie"]
             click A "index.php"
+            click 1 "keluarga-eko.php"
         </div>
     </section>
 </main>

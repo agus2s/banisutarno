@@ -5,9 +5,9 @@
         <p>Ibu Muslikhah Suhesti adalah anak pertama dari <a href="keluarga-dirsyam.php">Ibu Salimah dengan Bapak Dirsyam</a>. Beliau bersuami Bapak Paryan dan memiliki 3 anak</p>
         <h3>Daftar Anak</h3>
         <ol>
-            <li>Alfi</li>
-            <li>Laili</li>
-            <li>Ilham</li>
+            <li>Alvi Novianti</li>
+            <li>Nurlaeli Oktaviani</li>
+            <li>M. Ilham Fauzi</li>
         </ol>
     </section>
     <section>
@@ -16,8 +16,8 @@
             A["Mbah Sutarno"] 
             A --> B["Ibu Salimah"]
             B --> C["Ibu Muslikhah"]
-            C --> D["Alfi"] & E["Laili"] & F["Ilham"]
-            G["Bapak Dirsyam"] --> C
+            C --> 1["Alvi"] & 2["Laeli"] & 3["Ilham"]
+            D["Bapak Dirsyam"] --> C
             click A "index.php"
             click B "keluarga-dirsyam.php"
         </div>

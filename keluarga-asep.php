@@ -15,8 +15,9 @@
         <div class="mermaid">
         flowchart LR
             A["Mbah Sutarno"] --> B["Ibu Siti Jaenah"]
-            B --> C["Bapak Aip"] & D["Bapak Ifan"] & E["Efin Agam"]
+            B --> 1["Bapak Aip"] & 2["Bapak Ifan"] & 3["Efin Agam"]
             click A "index.php"
+            click 2 "keluarga-ifan.php"
         </div>
     </section>
 </main>
