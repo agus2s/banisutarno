@@ -19,6 +19,7 @@
             B --> 1["Bapak Eko Priyo"] & 2["Bapak Mansyur"] & 3["Bapak Rheza"] & 4["Bayu Ajie"]
             click A "index.php"
             click 1 "keluarga-eko.php"
+            click 2 "keluarga-mansyur.php"
         </div>
     </section>
 </main>

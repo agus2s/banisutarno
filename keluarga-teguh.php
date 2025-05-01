@@ -16,7 +16,7 @@
 		A["Mbah Sutarno"] 
 		A --> B["Bapak Sungadi"]
 		B --> C["Bapak Teguh"]
-        C --> 1["Intan Cahya"] & 2["Naelil Izzati"] & 3["Tedria"]
+        C --> 1["Intan"] & 2["Izzati"] & 3["Tedria"]
         D[Ibu Suyati] --> C
 
 		click A "index.php"
