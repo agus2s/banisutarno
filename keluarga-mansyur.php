@@ -14,7 +14,7 @@
         <h3>Silsilah Keluarga</h3>
         <div class="mermaid">
         flowchart LR
-        A["Mbah Sutarno"] --> B["Bapak Supriyo"] --> C["Bapak M. Mansyur"] --> D["Felisha"]
+        A["Mbah Sutarno"] --> B["Bapak Supriyo"] --> C["Bapak Mansyur"] --> D["Felisha"]
         E["Ibu Neng Aisi"] --> C
         click A "index.php"
         click B "keluarga-supriyo.php"
