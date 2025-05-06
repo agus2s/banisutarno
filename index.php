@@ -1,6 +1,4 @@
-<?php
-include 'header.php';
-?>
+<?php include 'header.php'; ?>
 <main>
 	<section>
 		<h2>H. Muhammad Sutarno beristri Hj. Ngadisem</h2>
@@ -42,7 +40,7 @@ include 'header.php';
 			click 6 "keluarga-triwibowo.php" "Keluarga Bapak Tri Wibowo"
 			click 7 "keluarga-saebani.php" "Keluarga Bapak Saebani"
 			click 8 "keluarga-supriyo.php" "Keluarga Bapak H. Tamyiz Supriyo"
-			click 9 "keluarga-asep.php" "Keluarhga Bapak H. Asep Rochaenasyir"
+			click 9 "keluarga-asep.php" "Keluarga Bapak H. Asep Rochaenasyir"
 			click 10 "keluarga-sitinuriyah.php" "Keluarga Ibu Siti Nuriyah"
 		</div>
 		<p>Lihat silsilah keluarga besar H. Muhammad Sutarno lebih lengkap <a href="silsilah.php">di sini</a>.</p>
