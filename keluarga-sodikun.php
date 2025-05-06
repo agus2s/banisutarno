@@ -11,10 +11,9 @@
     </section>
     <section>
         <h3>Silsilah Keluarga</h3>
-        <div class="mermaid">flowchart LR
-            A["Mbah Sutarno"] 
-            A --> B["Ibu Salimah"]
-            B --> C["Ibu Etikah"]
+        <div class="mermaid">
+            flowchart LR
+            A["Mbah Sutarno"] --> B["Ibu Salimah"] --> C["Ibu Etikah"]
             F["Bapak Dirsyam"] --> C
             C --> D["Alief Aulia"] & E["Hifni Noer"]
             click A "index.php"

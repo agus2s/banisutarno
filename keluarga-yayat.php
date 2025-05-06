@@ -11,10 +11,9 @@
     </section>
     <section>
         <h3>Silsilah Keluarga</h3>
-        <div class="mermaid">flowchart LR
-            A["Mbah Sutarno"] 
-            A --> B["Ibu Salimah"]
-            B --> C["Ibu Sri Sukaesih"]
+        <div class="mermaid">
+            flowchart LR
+            A["Mbah Sutarno"]  --> B["Ibu Salimah"] --> C["Ibu Sri Sukaesih"]
             C --> 1["Nisa"] & 2["Ulima"]
             D[Bapak Dirsyam] --> C
 

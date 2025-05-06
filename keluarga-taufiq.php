@@ -11,12 +11,10 @@
     </section>
     <section>
         <h3>Silsilah Keluarga</h3>
-        <div class="mermaid">flowchart LR
-            A["Mbah Sutarno"] 
-            A --> B["Ibu Suwahmi"]
-            B --> C["Bapak Taufiq"]
-            C --> Radit
-            C --> Yasmin
+        <div class="mermaid">
+            flowchart LR
+            A[Mbah Sutarno] --> B[Ibu Suwahmi] --> C[Bapak Taufiq]
+            C --> Radit & --> Yasmin
             D[Bapak Rohmat] --> C
 
             click A "index.php"
