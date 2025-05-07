@@ -12,9 +12,7 @@
     <section>
 		<h3>Silsilah Keluarga</h3>
 		<div class="mermaid">flowchart LR
-		A["Mbah Sutarno"] 
-		A --> B["Bapak Sudarno"]
-		B --> C["Bapak Aditya"]
+		A["Mbah Sutarno"] --> B["Bapak Sudarno"] --> C["Bapak Aditya"]
 		D["Ibu Sri"] --> C
 		C --> Arzaqiya & Raffasya
 

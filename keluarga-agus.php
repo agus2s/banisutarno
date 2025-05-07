@@ -12,15 +12,14 @@
 	</section>
 	<section>
 		<h3>Silsilah Keluarga</h3>
-		<div class="mermaid">flowchart LR
-		A["Mbah Sutarno"] 
-		A --> B["Bapak Sudarno"]
-		B --> C["Bapak Agus"]
-		D["Ibu Sri"] --> C
-		C --> Afiqa & Arsyila & Hanna
+		<div class="mermaid">
+			flowchart LR
+			A["Mbah Sutarno"] --> B["Bapak Sudarno"] --> C["Bapak Agus"]
+			D["Ibu Sri"] --> C
+			C --> Afiqa & Arsyila & Hanna
 
-		click A "index.php"
-		click B "keluarga-sudarno.php"</div>
+			click A "index.php"
+			click B "keluarga-sudarno.php"</div>
 	</section>
 </main>
 <?php include 'footer.php'; ?>
