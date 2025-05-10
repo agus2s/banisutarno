@@ -53,7 +53,6 @@ footer {
     text-align: center;
     width: 100%;
     bottom: 0;
-    width: 100%;
 }
 section {
     width: 100%;
@@ -70,7 +69,6 @@ a:hover {
 }
 
 .header-section {
-    background-image: url('background.jpg'); /* Masukkan path gambar Anda */
     background-size: cover; /* Agar gambar menyesuaikan ukuran header */
     background-position: center; /* Menjaga gambar tetap di tengah */
     background-repeat: no-repeat; /* Mencegah pengulangan gambar */
@@ -83,7 +81,6 @@ a:hover {
 
 .mermaid {
     text-align: center;
-    align-items: center;
 }
 
 .mermaidTooltip {
@@ -100,7 +97,6 @@ a:hover {
 
 #output {
     text-align: center;
-    align-items: center;
 }
 
 @media screen and (max-width: 1280px) {
