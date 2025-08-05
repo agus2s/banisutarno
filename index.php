@@ -16,6 +16,17 @@
 			<li><a href="keluarga-asep.php">Ibu Hj. Siti Jaenah bersuami Bapak H. Asep Rochaenasyir</a></li>                
 			<li><a href="keluarga-sitinuriyah.php">Ibu Siti Nuriyah</a></li>
 		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Mbah Muryadi sekalian</li>
+			<li>Mbah Sanwarid sekalian</li>
+			<li>Mbah Sutarno bin Muryadi</li>
+			<li>Mbah Ngadisem binti Sanwarid</li>
+			<li>Ibu Suyati</li>
+			<li>Ibu Rohmah</li>
+			<li>Bapak Sujamin Ahmad Ansori bin Sutarno</li>
+			<li>Bapak Untung Subagyo</li>
+			<li>Bapak Saebani bin Sutarno</li>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga</h3>

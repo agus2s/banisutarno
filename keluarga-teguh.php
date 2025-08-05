@@ -5,9 +5,14 @@
         <p>Bapak Teghu adalah anak pertama dari <a href="keluarga-sungadi.php">Bapak Muhammad Sungadi dengan Ibu Suyati</a>. Beliau memiliki 3 anak</p>
         <h3>Daftar Anak</h3>
         <ol>
-            <li>Intan Cahya Nugrahaeni (almarhumah)</li>
+            <li>Intan Cahya Nugrahaeni</li>
             <li>Naelil Izzati Nugrahaeni</li>
-            <li>Tedria Nugroho (almahum)</li>
+            <li>Tedria Nugroho</li>
+        </ol>
+        <h3>Kenangan Abadi</h3>
+        <ol>
+            <li>Intan Cahya Nugrahaeni binti Teguh Purwadi Nugroho</li>
+            <li>Tedria Nugroho bin Teguh Purwadi Nugroho</li>
         </ol>
     </section>
     <section>

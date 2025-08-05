@@ -9,6 +9,12 @@
                 <li><a href="keluarga-aditya.php">Bapak Aditya Dwi Safitra beristri Ibu Titi Andayani</a></li>
                 <li>Arif Tri Pamungkas</li>
             </ol>
+        
+            <h3>Kenangan Abadi</h3>
+            <ol>
+                <li>Mbah Sutarno bin Muryadi sekalian</li>
+                <li>Mbah Partotinoyo sekalian</li>
+            </ol>
         </section>
         <section>
             <h3>Silsilah Keluarga</h3>
@@ -21,5 +27,6 @@
                 click D "keluarga-aditya.php"
             </div>
         </section>
+  
     </main>
 <?php include 'footer.php'; ?>

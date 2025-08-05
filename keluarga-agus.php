@@ -9,6 +9,13 @@
 			<li>Arsyila Yumna Fauziyah</li>
 			<li>Asyifa Hanna Fauziyah</li>
 		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Bapak H. Ilyas bin Abdurrozaq sekalian</li>
+			<li>Ibu Rochyati binti Hasan Muhanan</li>
+			<li><a href="https://dulur.my.id/baniabdurrozaq/">Mbah Abdurrozaq sekalian</a></li>
+			<li>Mbah Hasan Muhanan sekalian</li>
+		</ol>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga</h3>
@@ -21,5 +28,6 @@
 			click A "index.php"
 			click B "keluarga-sudarno.php"</div>
 	</section>
+
 </main>
 <?php include 'footer.php'; ?>
