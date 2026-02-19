@@ -58,7 +58,10 @@
 	</section>
 	<script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            fontFamily: '"Plus Jakarta Sans", sans-serif'
+        });
     </script>
 </main>
 <?php include 'footer.php'; ?>

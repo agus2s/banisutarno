@@ -2,7 +2,7 @@
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ 
             startOnLoad: true,
-            fontFamily: 'Inter, sans-serif'
+            fontFamily: '"Plus Jakarta Sans", sans-serif'
         });
 	</script>
     <footer>
