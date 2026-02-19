@@ -22,11 +22,7 @@
 			<li>Mbah Sanwarid sekalian</li>
 			<li>Mbah Sutarno bin Muryadi</li>
 			<li>Mbah Ngadisem binti Sanwarid</li>
-			<li>Ibu Suyati</li>
-			<li>Ibu Rohmah</li>
-			<li>Bapak Sujamin Ahmad Ansori bin Sutarno</li>
-			<li>Bapak Untung Subagyo</li>
-			<li>Bapak Saebani bin Sutarno</li>
+			<li><a href="kenangan-abadi.php">Selengkapnya...</a></li>
 	</section>
 	<section>
 		<h3>Silsilah Keluarga</h3>
