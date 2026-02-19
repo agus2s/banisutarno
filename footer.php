@@ -1,8 +1,7 @@
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ 
-            startOnLoad: true,
-            fontFamily: '"Plus Jakarta Sans", sans-serif'
+            startOnLoad: true
         });
 	</script>
     <footer>
