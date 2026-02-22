@@ -31,7 +31,7 @@ include 'header.php';
 				<li>Bapak Daliman bin Mbah Singorejo sekalian</li>
 				<li>Nak Pramudita Agam Munggaran bin H. Asep Rokhaenasyr</li>
 				<li>Nak Dwi Apriani binti Saebani</li>
-				<li>Nak Intan Cahya Nugraheni bin Teguh Purwadi Nugroho</li>
+				<li>Nak Intan Cahya Nugraheni binti Teguh Purwadi Nugroho</li>
 				<li>Nak Tedria Nugroho bin Teguh Purwadi Nugroho</li>
 				<li>Mbah Sandiarja sekalian</li>
 				<hr>
